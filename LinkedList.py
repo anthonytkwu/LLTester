@@ -24,19 +24,15 @@ class SLinkedList:
     
 
 
-    
-    
-
-
-list = SLinkedList(Node("Mon"))
+list = SLinkedList()
 e1 = Node("Mon")
 e2 = Node("Tue")
 e3 = Node("Wed")
 
-
+list.addNodeEnd(e1)
 list.addNodeEnd(e2)
 list.addNodeEnd(e3)
 
-list.remove("Mon")
+#list.remove("Mon")
 
 list.listprint()
