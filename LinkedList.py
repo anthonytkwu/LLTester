@@ -22,6 +22,10 @@ class SLinkedList:
             tester = tester.nextval
         tester.nextval = node
     
+    def remove(self, look):
+        pass
+    
+    
 
 
 list = SLinkedList(Node("Mon"))
@@ -33,6 +37,6 @@ e3 = Node("Wed")
 list.addNodeEnd(e2)
 list.addNodeEnd(e3)
 
-#list.remove("Mon")
+list.remove("Mon")
 
 list.listprint()
