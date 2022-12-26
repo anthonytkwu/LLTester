@@ -22,8 +22,7 @@ class SLinkedList:
             tester = tester.nextval
         tester.nextval = node
     
-    def newName(self):
-        pass
+
 
     
     
