@@ -22,8 +22,9 @@ class SLinkedList:
             tester = tester.nextval
         tester.nextval = node
     
-    def remove(self, look):
+    def tester(self):
         pass
+
     
     
 
